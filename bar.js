@@ -116,7 +116,7 @@ const drawBar = ({
       .attr('width', ({ Year }) => xScale(+Year + 1) - xScale(Year) - barPadding)
       .attr('fill', d => d.Year === year ? '#149279' : '#1abc9c')
       .transition(transition)
-      .delay((d, i) => i * 100)
+      .delay((d, i) => i * 50)
         .attr(
           'height',
           d => barHeight - barGraphPadding - yScale(+R.prop(emissionType, d))
