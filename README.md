@@ -6,7 +6,11 @@ Clone the repo and navigate to the root of the project.
 
 Run
 ```
-npm install http-server && http-server
+npm install
+```
+then
+```
+npm start
 ```
 
-Navigate to localhost:8080
+Navigate to localhost:3000
